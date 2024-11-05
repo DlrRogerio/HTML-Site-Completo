@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Site Completo com Formulários e Tabelas</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Este site contém informações sobre mim, meus serviços, uma seção de contato e muito mais.</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#tabela">Tabela de Preços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Início -->
+    <section id="inicio">
+        <h2>Início</h2>
+        <p>Bem-vindo à página inicial do meu site! Aqui você pode encontrar informações sobre mim, meus serviços e formas de entrar em contato.</p>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Sou um desenvolvedor web apaixonado por criar soluções criativas para a internet. Com experiência em diversas tecnologias, busco entregar os melhores resultados para meus clientes.</p>
+        <ul>
+            <li>Desenvolvimento de Sites Responsivos</li>
+            <li>Consultoria e Planejamento Web</li>
+            <li>Otimização para Motores de Busca (SEO)</li>
+        </ul>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <p>Veja abaixo os serviços que ofereço para ajudar a impulsionar o seu negócio na web:</p>
+        <ol>
+            <li>Desenvolvimento de Sites</li>
+            <li>Criação de Lojas Virtuais</li>
+            <li>Consultoria em Marketing Digital</li>
+            <li>Otimização de Sites (SEO)</li>
+        </ol>
+    </section>
+
+    <!-- Tabela de Preços -->
+    <section id="tabela">
+        <h2>Tabela de Preços</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Serviço</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Desenvolvimento de Site</td>
+                <td>Criação de site responsivo e otimizado</td>
+                <td>R$ 1.500,00</td>
+            </tr>
+            <tr>
+                <td>Loja Virtual</td>
+                <td>Plataforma para vendas online com integração de pagamentos</td>
+                <td>R$ 2.500,00</td>
+            </tr>
+            <tr>
+                <td>Consultoria em SEO</td>
+                <td>Melhoria do posicionamento do site nos motores de busca</td>
+                <td>R$ 800,00</td>
+            </tr>
+            <tr>
+                <td>Marketing Digital</td>
+                <td>Gestão de campanhas e estratégias online</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você deseja entrar em contato comigo para discutir um projeto ou tirar dúvidas, preencha o formulário abaixo:</p>
+
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="assunto">Assunto:</label><br>
+            <select id="assunto" name="assunto">
+                <option value="consultoria">Consultoria</option>
+                <option value="desenvolvimento">Desenvolvimento de Site</option>
+                <option value="suporte">Suporte Técnico</option>
+            </select><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Site Completo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
